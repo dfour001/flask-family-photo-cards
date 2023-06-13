@@ -15,14 +15,14 @@ def get_card_html(id, img_url):
                 <input type="text" id="{id}_txt_name" name="{id}_txt_name" value="{name}"><br>
                 <input type="submit" value="Submit">
             </form>
-            <div type="button" id="{id}-delete" data-id="{id}" data-img-url="{img_url}">Delete</div>
+            <div type="button" id="{id}-delete" data-id="{id}">Delete</div>
             <br>
-            <button type="button" id="{id}-rotate-left" data-id="{id}" data-img-url="{img_url}">Rotate Left</button>
-            <button type="button" id="{id}-rotate-right" data-id="{id}" data-img-url="{img_url}">Rotate Right</button>
+            <button type="button" id="{id}-rotate-left" data-id="{id}">Rotate Left</button>
+            <button type="button" id="{id}-rotate-right" data-id="{id}">Rotate Right</button>
             <br>
-            <button type="button" id="{id}-auto-crop" data-id="{id}" data-img-url="{img_url}">Auto Cropping</button>
-            <button type="button" id="{id}-reset-crop" data-id="{id}" data-img-url="{img_url}">Reset Cropping</button>
-            <button type="button" id="{id}-manual-crop" data-id="{id}" data-img-url="{img_url}">Manual Cropping</button>
+            <button type="button" id="{id}-auto-crop" data-id="{id}">Auto Cropping</button>
+            <button type="button" id="{id}-reset-crop" data-id="{id}">Reset Cropping</button>
+            <button type="button" id="{id}-manual-crop" data-id="{id}">Manual Cropping</button>
             <br>
             <a id="{id}-download" data-id="{id}" href="{img_url}" download>Download</a>        
             <hr>

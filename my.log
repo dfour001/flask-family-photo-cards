@@ -1,0 +1,10 @@
+update_text(4_card~2.JPG, Nadia)
+    user_folder_path: files\f815f4be-6ae4-420c-8375-0e348aa64278
+    oriPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\2.JPG
+    cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\4_card~2.JPG
+    new_filename: 5_card~2.JPG
+    new_cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\5_card~2.JPG
+Done - returning:
+    {'success': True, 'new_filename': '/get_img/f815f4be-6ae4-420c-8375-0e348aa64278/5_card~2.JPG'}
+
+
