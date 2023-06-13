@@ -1,0 +1,28 @@
+.btn_refresh {
+    background-color: rgb(133, 133, 133);
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card_preview {
+    max-width: 33%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+    cursor: zoom-in;
+}
+
+.card_edit {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}

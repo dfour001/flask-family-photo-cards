@@ -1,0 +1,119 @@
+<html>
+
+<head>
+  <title>File Upload</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.css">
+  <link rel="stylesheet" type="text/css" href="{{url_for('.static', filename='style.css')}}">
+</head>
+
+<body>
+  <h1>File Upload: {{ id }}</h1>
+  <form action="{{ url_for('upload_files') }}" class="dropzone" id="myDropzone">
+  </form>
+  <div id="refresh" class="btn_refresh">
+    <p>REFRESH</p>
+  </div>
+  <hr>
+  <h2>Current Images:</h2>
+  <div id="img_container">
+    {{ imgs|safe }}
+  </div>
+</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.1/min/dropzone.min.js"></script>
+<script>
+  // Refresh Button
+  let btn_refresh = document.getElementById('refresh');
+  let img_container = document.getElementById('img_container');
+
+  btn_refresh.addEventListener('click', refresh_images)
+  
+  
+  function refresh_images() {
+    img_container.innerHTML = '<h1>Refreshing Images...</h1>';
+
+    var url = "{{url_for('get_all_imgs') }}/json";
+    fetch(url)
+      .then(response => response.json())
+      .then(data => img_container.innerHTML = data.html)
+      .finally(() => setup_photo_edit_forms());
+  }
+
+  // Handle photo renaming button
+  let photo_edit_forms;
+  setup_photo_edit_forms();
+  console.log(photo_edit_forms);
+
+  function setup_photo_edit_forms() {
+    // Add event listeners for photo edit forms
+    photo_edit_forms = document.getElementsByClassName('card_edit');
+    for (let i = 0; i < photo_edit_forms.length; i++) {
+      var current_form = photo_edit_forms[i];
+      var current_id = current_form.dataset.id;
+      var current_imgUrl = current_form.dataset.imgUrl
+      console.log(current_form);
+      console.log(current_imgUrl);
+
+      // Rename card caption
+      current_form.addEventListener('submit', rename_photo);
+
+      // Delete image
+      var btn_delete = document.getElementById(`${current_id}-delete`);
+      console.log(btn_delete);
+      btn_delete.addEventListener('click', () => delete_photo(btn_delete.dataset.imgUrl.split('/')[3]));
+    }
+  }
+
+  function delete_photo(imgUrl) {
+    alert(`Deleting ${imgUrl}`);
+    url = `tools/delete/${imgUrl}`;
+    fetch(url)
+      .then(() => refresh_images());
+  }
+  // When rename button is pressed, call function to edit the name and then refresh the
+  // preview image
+  function rename_photo(e) {
+    e.preventDefault();
+    var img_url = e.target.dataset.imgUrl;
+    var filename = img_url.split('/')[3];
+
+    var input_txt_box = document.getElementById(`${e.target.id}_txt_name`);
+    var text = input_txt_box.value;
+
+    var btn_download = document.getElementById(`${e.target.id}-download`);
+
+    var img = document.getElementById(`img-${e.target.id}`);
+
+    var url = `/tools/update_text/${filename}/${text}`;
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        // set new img url
+        new_img_url = data.new_filename;
+        e.target.dataset.imgUrl = new_img_url;
+
+        // reset card preview image
+        img.src = new_img_url;
+
+        // reset edit name text
+        input_txt_box.value = text;
+
+        // update download link
+        btn_download.href = new_img_url;
+      });
+
+  }
+
+  function reload_img(img, img_url, input_txt_box, text) {
+    fetch(img_url, { cache: "reload" })
+      .then(r => r.json())
+      .then(data => {
+        console.log(data)
+        new_filename = data.new_filename;
+        img.src = new_filename;
+        input_txt_box.value = text;
+      });
+  }
+</script>
