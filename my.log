@@ -8,3 +8,33 @@ Done - returning:
     {'success': True, 'new_filename': '/get_img/f815f4be-6ae4-420c-8375-0e348aa64278/5_card~2.JPG'}
 
 
+update_text(card~IMG_20200712_095439833_HDR.jpg, Daddy)
+    user_folder_path: files\f815f4be-6ae4-420c-8375-0e348aa64278
+    oriPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\IMG_20200712_095439833_HDR.jpg
+    cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\card~IMG_20200712_095439833_HDR.jpg
+    new_filename: 1_card~IMG_20200712_095439833_HDR.jpg
+    new_cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\1_card~IMG_20200712_095439833_HDR.jpg
+Done - returning:
+    {'success': True, 'new_filename': '/get_img/f815f4be-6ae4-420c-8375-0e348aa64278/1_card~IMG_20200712_095439833_HDR.jpg'}
+
+
+update_text(card~1621285695649.jpg, Baylee)
+    user_folder_path: files\f815f4be-6ae4-420c-8375-0e348aa64278
+    oriPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\1621285695649.jpg
+    cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\card~1621285695649.jpg
+    new_filename: 1_card~1621285695649.jpg
+    new_cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\1_card~1621285695649.jpg
+Done - returning:
+    {'success': True, 'new_filename': '/get_img/f815f4be-6ae4-420c-8375-0e348aa64278/1_card~1621285695649.jpg'}
+
+
+update_text(card~IMG_20220620_103203.jpg, Nadia)
+    user_folder_path: files\f815f4be-6ae4-420c-8375-0e348aa64278
+    oriPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\IMG_20220620_103203.jpg
+    cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\card~IMG_20220620_103203.jpg
+    new_filename: 1_card~IMG_20220620_103203.jpg
+    new_cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\1_card~IMG_20220620_103203.jpg
+Done - returning:
+    {'success': True, 'new_filename': '/get_img/f815f4be-6ae4-420c-8375-0e348aa64278/1_card~IMG_20220620_103203.jpg'}
+
+

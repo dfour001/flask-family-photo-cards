@@ -84,17 +84,17 @@ function reload_img(img, img_url, input_txt_box, text) {
 
 function rename_photo(e) {
   e.preventDefault();
-  var img_url = e.target.dataset.imgUrl;
-  var filename = img_url.split('/')[3];
+  let img_url = e.target.dataset.imgUrl;
+  let filename = img_url.split('/')[3];
 
-  var input_txt_box = document.getElementById(`${e.target.id}_txt_name`);
-  var text = input_txt_box.value;
+  let input_txt_box = document.getElementById(`${e.target.id}_txt_name`);
+  let text = input_txt_box.value;
 
-  var btn_download = document.getElementById(`${e.target.id}-download`);
+  let btn_download = document.getElementById(`${e.target.id}-download`);
 
-  var img = document.getElementById(`img-${e.target.id}`);
+  let img = document.getElementById(`img-${e.target.id}`);
 
-  var url = `/tools/update_text/${filename}/${text}`;
+  let url = `/tools/update_text/${filename}/${text}`;
 
   fetch(url)
     .then(response => response.json())
