@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(247,247,247);
+}
+
 .btn_refresh {
     background-color: rgb(133, 133, 133);
     color: rgb(255, 255, 255);
@@ -15,14 +19,16 @@
 }
 
 .card_preview {
-    max-width: 33%;
+    max-width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 15px;
     cursor: zoom-in;
 }
 
 .card_edit {
+    background-color: rgb(255,255,255);
+    border-radius: 4px;
     margin: auto;
-    width: 50%;
-    text-align: center;
+    width: 75%;
+    /* text-align: center; */
 }

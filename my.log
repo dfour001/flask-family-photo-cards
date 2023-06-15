@@ -1,40 +1,20 @@
-update_text(4_card~2.JPG, Nadia)
-    user_folder_path: files\f815f4be-6ae4-420c-8375-0e348aa64278
-    oriPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\2.JPG
-    cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\4_card~2.JPG
-    new_filename: 5_card~2.JPG
-    new_cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\5_card~2.JPG
+update_text(card~IMG_20210717_113654719.jpg, Mmm... Sandwich)
+    user_folder_path: files\c2641aff-ae7c-445d-b094-309c9487ae20
+    oriPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\IMG_20210717_113654719.jpg
+    cardPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\card~IMG_20210717_113654719.jpg
+    new_filename: 1_card~IMG_20210717_113654719.jpg
+    new_cardPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\1_card~IMG_20210717_113654719.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f815f4be-6ae4-420c-8375-0e348aa64278/5_card~2.JPG'}
+    {'success': True, 'new_filename': '/get_img/c2641aff-ae7c-445d-b094-309c9487ae20/1_card~IMG_20210717_113654719.jpg'}
 
 
-update_text(card~IMG_20200712_095439833_HDR.jpg, Daddy)
-    user_folder_path: files\f815f4be-6ae4-420c-8375-0e348aa64278
-    oriPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\IMG_20200712_095439833_HDR.jpg
-    cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\card~IMG_20200712_095439833_HDR.jpg
-    new_filename: 1_card~IMG_20200712_095439833_HDR.jpg
-    new_cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\1_card~IMG_20200712_095439833_HDR.jpg
+update_text(card~IMG_20210311_165706088.jpg, The Big Concert!)
+    user_folder_path: files\c2641aff-ae7c-445d-b094-309c9487ae20
+    oriPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\IMG_20210311_165706088.jpg
+    cardPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\card~IMG_20210311_165706088.jpg
+    new_filename: 1_card~IMG_20210311_165706088.jpg
+    new_cardPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\1_card~IMG_20210311_165706088.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f815f4be-6ae4-420c-8375-0e348aa64278/1_card~IMG_20200712_095439833_HDR.jpg'}
-
-
-update_text(card~1621285695649.jpg, Baylee)
-    user_folder_path: files\f815f4be-6ae4-420c-8375-0e348aa64278
-    oriPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\1621285695649.jpg
-    cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\card~1621285695649.jpg
-    new_filename: 1_card~1621285695649.jpg
-    new_cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\1_card~1621285695649.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f815f4be-6ae4-420c-8375-0e348aa64278/1_card~1621285695649.jpg'}
-
-
-update_text(card~IMG_20220620_103203.jpg, Nadia)
-    user_folder_path: files\f815f4be-6ae4-420c-8375-0e348aa64278
-    oriPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\IMG_20220620_103203.jpg
-    cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\card~IMG_20220620_103203.jpg
-    new_filename: 1_card~IMG_20220620_103203.jpg
-    new_cardPath: files\f815f4be-6ae4-420c-8375-0e348aa64278\1_card~IMG_20220620_103203.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f815f4be-6ae4-420c-8375-0e348aa64278/1_card~IMG_20220620_103203.jpg'}
+    {'success': True, 'new_filename': '/get_img/c2641aff-ae7c-445d-b094-309c9487ae20/1_card~IMG_20210311_165706088.jpg'}
 
 
