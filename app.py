@@ -166,3 +166,66 @@ def update_text(filename, text):
     log.debug(f'Done - returning:\n    {return_data}\n\n')
 
     return json.dumps(return_data), 200, {'ContentType':'application/json'}
+
+
+@app.route('/tools/edit_card', methods=['POST'])
+def edit_card():
+    """ Updates the card based on changes sent in json format.  Sample input:
+     
+        {
+            'img_url': '/get_img/15b989db-608b-434c-9c2f-c7c1cd3e8405/1_card~PXL_20230617_185630750.jpg', 
+            'text': 'Nadia',
+            'background_color': '#FFFFFF',
+            'font': '',
+            'font_color': '#000000',
+            'crop': 'auto',
+            'rotate_clockwise': False,
+            'rotate_counterclockwise': False
+        }        
+    """
+    log.debug(f'edit_card())')
+    edits = request.get_json()
+    log.debug(f'Edits:\n{edits}')
+    img_url = edits['img_url']
+    filename = img_url.split('/')[-1]
+    ori_filename = filename.split('~')[1]
+    text = edits['text']
+    rotate_clockwise = edits['rotate_clockwise']
+    rotate_counterclockwise = edits['rotate_counterclockwise']
+    crop = edits['crop']
+
+    user_folder_path = os.path.join(app.config['UPLOAD_PATH'], session['id'])
+    log.debug(f'    user_folder_path: {user_folder_path}')
+    
+    # Path to original file that user uploaded
+    oriPath = os.path.join(user_folder_path, ori_filename)
+    log.debug(f'    oriPath: {oriPath}')
+
+    # Path to the currently displayed card
+    cardPath = os.path.join(user_folder_path, filename)
+    log.debug(f'    cardPath: {cardPath}')
+
+    new_filename = get_unique_name(filename, os.listdir(user_folder_path))
+    new_cardPath = os.path.join(user_folder_path, new_filename)
+    log.debug(f'    new_filename: {new_filename}')
+    log.debug(f'    new_cardPath: {new_cardPath}')
+    create_card(oriPath, text, new_cardPath)
+    
+    # Delete previous version of card
+    os.remove(cardPath)
+
+    new_img_path = url_for('get_img', id=session['id'], filename=new_filename)
+    return_data = {'success':True, 'new_filename':new_img_path}
+    log.debug(f'Done - returning:\n    {return_data}\n\n')
+
+    return json.dumps(return_data), 200, {'ContentType':'application/json'}
+
+
+@app.route('/test', methods=['POST'])
+def test():
+    data = request.get_json()
+
+    print(type(data))
+
+    return_data = {'success':True}
+    return json.dumps(return_data), 200, {'ContentType':'application/json'}

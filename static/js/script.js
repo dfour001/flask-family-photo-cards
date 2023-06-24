@@ -4,7 +4,19 @@ var refreshImagesURL;
 var photo_edit_forms;
 var btn_refresh = document.getElementById('refresh');
 var img_container = document.getElementById('img_container');
+var edits = {};  // Will store edits for each loaded card
 
+// REMOVE THIS
+var btnTest = document.getElementById('btn_test');
+btnTest.addEventListener('click', () =>{
+  fetch(`test`, {
+    method: "POST",
+    body: JSON.stringify(edits),
+    headers: {
+      'content-type': 'application/json'
+    }
+  });
+})
 
 function init(imagesURL) {
   btn_refresh.addEventListener('click', refresh_images)
@@ -48,6 +60,25 @@ function setup_card_edit_forms() {
   for (let i = 0; i < photo_edit_forms.length; i++) {
     let current_form = photo_edit_forms[i];
     let current_id = current_form.dataset.id;
+    let current_img_url = current_form.dataset.imgUrl;
+    let current_text = current_form.dataset.nameText;
+    let current_background_color = '#FFFFFF';
+    let current_font = '';
+    let current_font_color = '#000000';
+    let current_crop = 'auto';
+
+
+    // Set up edits entry
+    edits[current_id] = {
+      'img_url': current_img_url,
+      'text': current_text,
+      'background_color': current_background_color,
+      'font': current_font,
+      'font_color': current_font_color,
+      'crop': current_crop,
+      'rotate_clockwise': false,
+      'rotate_counterclockwise': false
+    }
 
     // Rename card caption
     current_form.addEventListener('submit', rename_photo);
@@ -71,6 +102,15 @@ function figure_this_out(test) {
 }
 
 
+function rename_photo(e) {
+  e.preventDefault();
+  let id = e.target.id;
+  let input_txt_box = document.getElementById(`${id}_txt_name`);
+  edits[id]['text'] = input_txt_box.value;
+  edit_photo(e);
+}
+
+
 function reload_img(img, img_url, input_txt_box, text) {
   fetch(img_url, { cache: "reload" })
     .then(r => r.json())
@@ -82,26 +122,36 @@ function reload_img(img, img_url, input_txt_box, text) {
     });
 }
 
-function rename_photo(e) {
+function edit_photo(e) {
   e.preventDefault();
-  let img_url = e.target.dataset.imgUrl;
+  let id = e.target.dataset.id;
+  let card_edits = edits[id];  // Load edits for current card
+
+  let img_url = card_edits['img_url'];
   let filename = img_url.split('/')[3];
 
-  let input_txt_box = document.getElementById(`${e.target.id}_txt_name`);
-  let text = input_txt_box.value;
+  let input_txt_box = document.getElementById(`${id}_txt_name`);
+  let text = card_edits['text'];
 
-  let btn_download = document.getElementById(`${e.target.id}-download`);
+  let btn_download = document.getElementById(`${id}-download`);
 
-  let img = document.getElementById(`img-${e.target.id}`);
+  let img = document.getElementById(`img-${id}`);
 
-  let url = `/tools/update_text/${filename}/${text}`;
+  let url = `/tools/edit_card`;
 
-  fetch(url)
+  fetch(url, {
+    method: "POST",
+    body: JSON.stringify(card_edits),
+    headers: {
+      'content-type': 'application/json'
+    }
+  })
     .then(response => response.json())
     .then(data => {
       // set new img url
       new_img_url = data.new_filename;
       e.target.dataset.imgUrl = new_img_url;
+      edits[id].img_url = new_img_url;
 
       // reset card preview image
       img.src = new_img_url;

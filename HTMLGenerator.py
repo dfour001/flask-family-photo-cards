@@ -7,13 +7,13 @@ def get_card_html(id, img_url):
     name = name.split('~')[1]  # Remove card~ prefix
     name = name.replace('_', ' ')
     return f"""
-        <div class="card_edit mb-6" data-id="{id}" data-img-url="{img_url}">
+        <div class="card_edit mb-6" data-id="{id}" data-img-url="{img_url}" data-name-text="{name}">
             <div class="columns">
                 <div class="column has-text-centered">
                     <img id="img-{id}" src="{img_url}" class="card_preview">
                 </div>
                 <div class="column">
-                    <form id="{id}" data-img-url="{img_url}">
+                    <form id="{id}" data-id="{id}" data-img-url="{img_url}">
                         <label class="label">Change image text</label>
                         <div class="field has-addons">
                             <div class="control">

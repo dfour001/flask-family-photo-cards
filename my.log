@@ -1,20 +1,12 @@
-update_text(card~IMG_20210717_113654719.jpg, Mmm... Sandwich)
-    user_folder_path: files\c2641aff-ae7c-445d-b094-309c9487ae20
-    oriPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\IMG_20210717_113654719.jpg
-    cardPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\card~IMG_20210717_113654719.jpg
-    new_filename: 1_card~IMG_20210717_113654719.jpg
-    new_cardPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\1_card~IMG_20210717_113654719.jpg
+edit_card())
+Edits:
+{'img_url': '/get_img/15b989db-608b-434c-9c2f-c7c1cd3e8405/3_card~PXL_20230617_185630750.jpg', 'text': 'This looks dangerous', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\15b989db-608b-434c-9c2f-c7c1cd3e8405
+    oriPath: files\15b989db-608b-434c-9c2f-c7c1cd3e8405\PXL_20230617_185630750.jpg
+    cardPath: files\15b989db-608b-434c-9c2f-c7c1cd3e8405\3_card~PXL_20230617_185630750.jpg
+    new_filename: 4_card~PXL_20230617_185630750.jpg
+    new_cardPath: files\15b989db-608b-434c-9c2f-c7c1cd3e8405\4_card~PXL_20230617_185630750.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/c2641aff-ae7c-445d-b094-309c9487ae20/1_card~IMG_20210717_113654719.jpg'}
-
-
-update_text(card~IMG_20210311_165706088.jpg, The Big Concert!)
-    user_folder_path: files\c2641aff-ae7c-445d-b094-309c9487ae20
-    oriPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\IMG_20210311_165706088.jpg
-    cardPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\card~IMG_20210311_165706088.jpg
-    new_filename: 1_card~IMG_20210311_165706088.jpg
-    new_cardPath: files\c2641aff-ae7c-445d-b094-309c9487ae20\1_card~IMG_20210311_165706088.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/c2641aff-ae7c-445d-b094-309c9487ae20/1_card~IMG_20210311_165706088.jpg'}
+    {'success': True, 'new_filename': '/get_img/15b989db-608b-434c-9c2f-c7c1cd3e8405/4_card~PXL_20230617_185630750.jpg'}
 
 
