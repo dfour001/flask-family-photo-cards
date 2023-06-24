@@ -9,7 +9,7 @@ from werkzeug.utils import secure_filename
 import uuid
 
 from HTMLGenerator import get_card_html
-from MakeCards import create_card, get_unique_name
+from MakeCards import create_card, get_unique_name, rotate_ori_image
 
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG) # Set the debug level here
@@ -193,6 +193,7 @@ def edit_card():
     rotate_clockwise = edits['rotate_clockwise']
     rotate_counterclockwise = edits['rotate_counterclockwise']
     crop = edits['crop']
+    autocrop = True if crop == 'auto' else False
 
     user_folder_path = os.path.join(app.config['UPLOAD_PATH'], session['id'])
     log.debug(f'    user_folder_path: {user_folder_path}')
@@ -205,11 +206,18 @@ def edit_card():
     cardPath = os.path.join(user_folder_path, filename)
     log.debug(f'    cardPath: {cardPath}')
 
+    # Rotate if needed
+    if rotate_clockwise or rotate_counterclockwise:
+        log.debug(f'        Rotation needed:')
+        log.debug(f'            Clockwise: {rotate_clockwise}')
+        log.debug(f'            Counterclockwise: {rotate_counterclockwise}')
+        rotate_ori_image(oriPath, rotate_clockwise, rotate_counterclockwise)
+
     new_filename = get_unique_name(filename, os.listdir(user_folder_path))
     new_cardPath = os.path.join(user_folder_path, new_filename)
     log.debug(f'    new_filename: {new_filename}')
     log.debug(f'    new_cardPath: {new_cardPath}')
-    create_card(oriPath, text, new_cardPath)
+    create_card(oriPath, text, new_cardPath, autoCrop=autocrop)
     
     # Delete previous version of card
     os.remove(cardPath)

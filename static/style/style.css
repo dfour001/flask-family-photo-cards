@@ -32,3 +32,8 @@ body {
     width: 75%;
     /* text-align: center; */
 }
+
+.img-modal {
+    max-height: 80vh;
+    width: auto;
+}

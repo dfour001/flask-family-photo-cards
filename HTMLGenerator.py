@@ -7,7 +7,7 @@ def get_card_html(id, img_url):
     name = name.split('~')[1]  # Remove card~ prefix
     name = name.replace('_', ' ')
     return f"""
-        <div class="card_edit mb-6" data-id="{id}" data-img-url="{img_url}" data-name-text="{name}">
+        <div id="{id}_card-edit" class="card_edit mb-6" data-id="{id}" data-img-url="{img_url}" data-name-text="{name}">
             <div class="columns">
                 <div class="column has-text-centered">
                     <img id="img-{id}" src="{img_url}" class="card_preview">
@@ -28,10 +28,10 @@ def get_card_html(id, img_url):
                     <label class="label">Rotate Image</label>
                     <div class="field has-addons">
                         <div class="control">
-                            <div class="button is-link" id="{id}-rotate-left" data-id="{id}"><span class="icon iconify" data-icon="carbon:rotate-counterclockwise-alt"></span></div>
+                            <div class="button is-link" id="{id}-rotate-counterclockwise" data-id="{id}"><span class="icon iconify" data-icon="carbon:rotate-counterclockwise-alt"></span></div>
                         </div>
                         <div class="control">
-                            <div class="button is-link" id="{id}-rotate-right" data-id="{id}"><span class="icon iconify" data-icon="carbon:rotate-clockwise-alt"></span></div>
+                            <div class="button is-link" id="{id}-rotate-clockwise" data-id="{id}"><span class="icon iconify" data-icon="carbon:rotate-clockwise-alt"></span></div>
                         </div>
                     </div>
                     <label class="label">Cropping</label>
@@ -43,7 +43,7 @@ def get_card_html(id, img_url):
                             <button class="button" id="{id}-reset-crop" data-id="{id}"><span>No Cropping</span></button>
                         </div>
                         <div class="control">
-                            <button class="button" id="{id}-manual-crop" data-id="{id}"><span class="icon iconify" data-icon="fluent:crop-16-filled"></span> <span>Manual</span></button>
+                            <button class="button" id="{id}-manual-crop" data-id="{id}" disabled><span class="icon iconify" data-icon="fluent:crop-16-filled"></span> <span>Manual</span></button>
                         </div>
                     </div>
                     <hr>

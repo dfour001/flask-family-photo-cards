@@ -128,6 +128,20 @@ def get_unique_name(filename, files):
         
         num += 1
 
+
+def rotate_ori_image(img_url, clockwise, counterclockwise):
+    img = Image.open(img_url)
+    img = exif_transpose(img) # Rotate image if needed
+
+    if clockwise:
+        rotation = -90
+    
+    if counterclockwise:
+        rotation = 90
+
+    img = img.rotate(rotation)
+
+    img.save(img_url)
         
 if __name__ == '__main__':
     print(get_unique_name('something_something.jpg', ['1_nadia.jpg', '2_nadia.jpg', '3_nadia.jpg', '4_nadia.jpg']))

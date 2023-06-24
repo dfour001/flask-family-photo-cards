@@ -6,18 +6,6 @@ var btn_refresh = document.getElementById('refresh');
 var img_container = document.getElementById('img_container');
 var edits = {};  // Will store edits for each loaded card
 
-// REMOVE THIS
-var btnTest = document.getElementById('btn_test');
-btnTest.addEventListener('click', () =>{
-  fetch(`test`, {
-    method: "POST",
-    body: JSON.stringify(edits),
-    headers: {
-      'content-type': 'application/json'
-    }
-  });
-})
-
 function init(imagesURL) {
   btn_refresh.addEventListener('click', refresh_images)
   refreshImagesURL = imagesURL
@@ -86,6 +74,66 @@ function setup_card_edit_forms() {
     // Delete image
     let btn_delete = document.getElementById(`${current_id}-delete`);
     btn_delete.addEventListener('click', () => delete_photo(get_card_data(current_id, 'img_filename')));
+
+    // Rotate clockwise
+    let btn_rotate_clockwise = document.getElementById(`${current_id}-rotate-clockwise`);
+    btn_rotate_clockwise.addEventListener('click', () => {
+      btn_rotate_clockwise.classList.add('is-loading');
+      edits[current_id].rotate_clockwise = true;
+      let current_form = document.getElementById(current_id);
+      edit_photo(undefined, current_id);
+    });
+
+    // Rotate counterclockwise
+    let btn_rotate_counterclockwise = document.getElementById(`${current_id}-rotate-counterclockwise`);
+    btn_rotate_counterclockwise.addEventListener('click', () => {
+      btn_rotate_counterclockwise.classList.add('is-loading');
+      edits[current_id].rotate_counterclockwise = true;
+      edit_photo(undefined, current_id);
+    });
+
+    // Cropping buttons
+    let btn_auto_crop = document.getElementById(`${current_id}-auto-crop`);
+    let btn_no_crop = document.getElementById(`${current_id}-reset-crop`);
+    let btn_manual_crop = document.getElementById(`${current_id}-manual-crop`);
+
+    // Auto crop
+    btn_auto_crop.addEventListener('click', () => {
+      btn_auto_crop.classList.add('is-loading', 'is-link', 'is-selected');
+      btn_no_crop.classList.remove('is-link', 'is-selected');
+      btn_manual_crop.classList.remove('is-link', 'is-selected');
+      edits[current_id].crop = 'auto';
+      edit_photo(undefined, current_id);
+    })
+
+    // No crop
+    btn_no_crop.addEventListener('click', () => {
+      btn_no_crop.classList.add('is-loading', 'is-link', 'is-selected');
+      btn_auto_crop.classList.remove('is-link', 'is-selected');
+      btn_manual_crop.classList.remove('is-link', 'is-selected');
+      edits[current_id].crop = 'no';
+      edit_photo(undefined, current_id);
+    })
+
+    // Manual crop
+    btn_manual_crop.addEventListener('click', () => {
+      btn_manual_crop.classList.add('is-loading', 'is-link', 'is-selected');
+      btn_auto_crop.classList.remove('is-link', 'is-selected');
+      btn_no_crop.classList.remove('is-link', 'is-selected');
+      edits[current_id].crop = 'manual';
+      edit_photo(undefined, current_id);
+    })
+
+    // Image modal
+    let img_card = document.getElementById(`img-${current_id}`)
+    img_card.addEventListener('click', () => {
+      let img_url = img_card.src;
+      let modal_img = document.getElementById('modal-image');
+      modal_img.src = img_url;
+      openModal();
+    })
+
+
   }
 }
 
@@ -115,16 +163,18 @@ function reload_img(img, img_url, input_txt_box, text) {
   fetch(img_url, { cache: "reload" })
     .then(r => r.json())
     .then(data => {
-      console.log(data)
       new_filename = data.new_filename;
       img.src = new_filename;
       input_txt_box.value = text;
     });
 }
 
-function edit_photo(e) {
-  e.preventDefault();
-  let id = e.target.dataset.id;
+function edit_photo(e, id) {
+  if (typeof e !== 'undefined') {
+    e.preventDefault();
+    id = e.target.dataset.id;
+  }
+    
   let card_edits = edits[id];  // Load edits for current card
 
   let img_url = card_edits['img_url'];
@@ -150,8 +200,13 @@ function edit_photo(e) {
     .then(data => {
       // set new img url
       new_img_url = data.new_filename;
-      e.target.dataset.imgUrl = new_img_url;
+      let card = document.getElementById(`${id}_card-edit`);
+      card.dataset.imgUrl = new_img_url;
+
+      // update edits dict
       edits[id].img_url = new_img_url;
+      edits[id]['rotate_clockwise'] = false;
+      edits[id]['rotate_counterclockwise'] = false;
 
       // reset card preview image
       img.src = new_img_url;
@@ -161,6 +216,47 @@ function edit_photo(e) {
 
       // update download link
       btn_download.href = new_img_url;
+
+      // reset loading animations
+      loading_elements = document.getElementsByClassName('is-loading');
+      for (let i = 0; i < loading_elements.length; i++) {
+        loading_elements[i].classList.remove('is-loading');
+      }
     });
 }
 
+
+// Functions to open and close a modal
+function openModal() {
+  $el = document.getElementsByClassName('modal')[0]
+  $el.classList.add('is-active');
+}
+
+function closeModal() {
+  $el = document.getElementsByClassName('modal')[0]
+  $el.classList.remove('is-active');
+}
+
+function closeAllModals() {
+  (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+    closeModal($modal);
+  });
+}
+
+// Add a click event on various child elements to close the parent modal
+(document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+  const $target = $close.closest('.modal');
+
+  $close.addEventListener('click', () => {
+    closeModal($target);
+  });
+});
+
+// Add a keyboard event to close all modals
+document.addEventListener('keydown', (event) => {
+  const e = event || window.event;
+
+  if (e.keyCode === 27) { // Escape key
+    closeAllModals();
+  }
+});
