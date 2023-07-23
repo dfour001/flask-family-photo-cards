@@ -139,7 +139,7 @@ def rotate_ori_image(img_url, clockwise, counterclockwise):
     if counterclockwise:
         rotation = 90
 
-    img = img.rotate(rotation)
+    img = img.rotate(rotation, expand=True)
 
     img.save(img_url)
         

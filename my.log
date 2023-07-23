@@ -1,582 +1,276 @@
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\card~PXL_20230623_213057967.MP.jpg
-    new_filename: 1_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\1_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\card~IMG_20220102_102852.jpg
+    new_filename: 1_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\1_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/1_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/1_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/1_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': True, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\1_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/1_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': True, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\1_card~IMG_20220102_102852.jpg
         Rotation needed:
             Clockwise: True
             Counterclockwise: False
-    new_filename: 2_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\2_card~PXL_20230623_213057967.MP.jpg
+    new_filename: 2_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\2_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/2_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/2_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/2_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': True}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\2_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/2_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': True}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\2_card~IMG_20220102_102852.jpg
         Rotation needed:
             Clockwise: False
             Counterclockwise: True
-    new_filename: 3_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\3_card~PXL_20230623_213057967.MP.jpg
+    new_filename: 3_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\3_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/3_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/3_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/3_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': True, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\3_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/3_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': True}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\3_card~IMG_20220102_102852.jpg
+        Rotation needed:
+            Clockwise: False
+            Counterclockwise: True
+    new_filename: 4_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\4_card~IMG_20220102_102852.jpg
+Done - returning:
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/4_card~IMG_20220102_102852.jpg'}
+
+
+edit_card())
+Edits:
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/4_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\4_card~IMG_20220102_102852.jpg
+    new_filename: 5_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\5_card~IMG_20220102_102852.jpg
+Done - returning:
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/5_card~IMG_20220102_102852.jpg'}
+
+
+edit_card())
+Edits:
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/5_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': True, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\5_card~IMG_20220102_102852.jpg
         Rotation needed:
             Clockwise: True
             Counterclockwise: False
-    new_filename: 4_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\4_card~PXL_20230623_213057967.MP.jpg
+    new_filename: 6_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\6_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/4_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/6_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/4_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\4_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 5_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\5_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/5_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/5_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\5_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 6_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\6_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/6_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/6_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\6_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 7_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\7_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/7_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/7_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': True}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\7_card~PXL_20230623_213057967.MP.jpg
-        Rotation needed:
-            Clockwise: False
-            Counterclockwise: True
-    new_filename: 8_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\8_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/8_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/8_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\8_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 9_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\9_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/9_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/9_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\9_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 10_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\10_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/10_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/10_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\10_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 11_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\11_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/11_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/11_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\11_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 12_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\12_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/12_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\card~PXL_20230623_213057967.MP.jpg
-    new_filename: 1_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\1_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/1_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/1_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\1_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 2_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\2_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/2_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/2_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\2_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 3_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\3_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/3_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/3_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\3_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 4_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\4_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/4_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/4_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\4_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 5_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\5_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/5_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/5_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\5_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 6_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\6_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/6_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/6_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\6_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 7_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\7_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/7_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/7_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\7_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 8_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\8_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/8_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\card~PXL_20230623_213101121.MP.jpg
-    new_filename: 1_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\1_card~PXL_20230623_213101121.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/1_card~PXL_20230623_213101121.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/1_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': True, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\1_card~PXL_20230623_213101121.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/6_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': True, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\6_card~IMG_20220102_102852.jpg
         Rotation needed:
             Clockwise: True
             Counterclockwise: False
-    new_filename: 2_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\2_card~PXL_20230623_213101121.MP.jpg
+    new_filename: 7_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\7_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/2_card~PXL_20230623_213101121.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/7_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/2_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': True}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\2_card~PXL_20230623_213101121.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/7_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\7_card~IMG_20220102_102852.jpg
+    new_filename: 8_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\8_card~IMG_20220102_102852.jpg
+Done - returning:
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/8_card~IMG_20220102_102852.jpg'}
+
+
+edit_card())
+Edits:
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/8_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\8_card~IMG_20220102_102852.jpg
+    new_filename: 9_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\9_card~IMG_20220102_102852.jpg
+Done - returning:
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/9_card~IMG_20220102_102852.jpg'}
+
+
+edit_card())
+Edits:
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/9_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': True}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\9_card~IMG_20220102_102852.jpg
         Rotation needed:
             Clockwise: False
             Counterclockwise: True
-    new_filename: 3_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\3_card~PXL_20230623_213101121.MP.jpg
+    new_filename: 10_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\10_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/3_card~PXL_20230623_213101121.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/10_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/3_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\3_card~PXL_20230623_213101121.MP.jpg
-    new_filename: 4_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\4_card~PXL_20230623_213101121.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/10_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\10_card~IMG_20220102_102852.jpg
+    new_filename: 11_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\11_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/4_card~PXL_20230623_213101121.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/11_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/4_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\4_card~PXL_20230623_213101121.MP.jpg
-    new_filename: 5_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\5_card~PXL_20230623_213101121.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/11_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\11_card~IMG_20220102_102852.jpg
+    new_filename: 12_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\12_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/5_card~PXL_20230623_213101121.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/12_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/5_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\5_card~PXL_20230623_213101121.MP.jpg
-    new_filename: 6_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\6_card~PXL_20230623_213101121.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/12_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\12_card~IMG_20220102_102852.jpg
+    new_filename: 13_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\13_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/6_card~PXL_20230623_213101121.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/13_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/6_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\6_card~PXL_20230623_213101121.MP.jpg
-    new_filename: 7_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\7_card~PXL_20230623_213101121.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/7_card~PXL_20230623_213101121.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/7_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\7_card~PXL_20230623_213101121.MP.jpg
-    new_filename: 8_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\8_card~PXL_20230623_213101121.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/8_card~PXL_20230623_213101121.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/8_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': True}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\8_card~PXL_20230623_213101121.MP.jpg
-        Rotation needed:
-            Clockwise: False
-            Counterclockwise: True
-    new_filename: 9_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\9_card~PXL_20230623_213101121.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/9_card~PXL_20230623_213101121.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/8_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\8_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 9_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\9_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/9_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/9_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\9_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 10_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\10_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/10_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/10_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\10_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 11_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\11_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/11_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/11_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\11_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 12_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\12_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/12_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/12_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\12_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 13_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\13_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/13_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/13_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\13_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 14_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\14_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/14_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/14_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': True, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\14_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/13_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': True, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\13_card~IMG_20220102_102852.jpg
         Rotation needed:
             Clockwise: True
             Counterclockwise: False
-    new_filename: 15_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\15_card~PXL_20230623_213057967.MP.jpg
+    new_filename: 14_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\14_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/15_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/14_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/15_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\15_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 16_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\16_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/16_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/16_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\16_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 17_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\17_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/17_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/17_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': True}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\17_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/14_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': True}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\14_card~IMG_20220102_102852.jpg
         Rotation needed:
             Clockwise: False
             Counterclockwise: True
-    new_filename: 18_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\18_card~PXL_20230623_213057967.MP.jpg
+    new_filename: 15_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\15_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/18_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/15_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/18_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\18_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 19_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\19_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/15_card~IMG_20220102_102852.jpg', 'text': 'IMG 20220102 102852', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\15_card~IMG_20220102_102852.jpg
+    new_filename: 16_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\16_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/19_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/16_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/19_card~PXL_20230623_213057967.MP.jpg', 'text': 'PXL 20230623 213057967', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\19_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 20_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\20_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/16_card~IMG_20220102_102852.jpg', 'text': 'Noah and Ava and a Tree', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\16_card~IMG_20220102_102852.jpg
+    new_filename: 17_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\17_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/20_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/17_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/9_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': True, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\9_card~PXL_20230623_213101121.MP.jpg
-        Rotation needed:
-            Clockwise: True
-            Counterclockwise: False
-    new_filename: 10_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\10_card~PXL_20230623_213101121.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/17_card~IMG_20220102_102852.jpg', 'text': 'Noah and Ava and a Tree at the Beeeeech', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\17_card~IMG_20220102_102852.jpg
+    new_filename: 18_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\18_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/10_card~PXL_20230623_213101121.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/18_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/10_card~PXL_20230623_213101121.MP.jpg', 'text': 'PXL 20230623 213101121', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213101121.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\10_card~PXL_20230623_213101121.MP.jpg
-    new_filename: 11_card~PXL_20230623_213101121.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\11_card~PXL_20230623_213101121.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/18_card~IMG_20220102_102852.jpg', 'text': 'Noah and Ava and a Tree at the Beach', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\IMG_20220102_102852.jpg
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\18_card~IMG_20220102_102852.jpg
+    new_filename: 19_card~IMG_20220102_102852.jpg
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\19_card~IMG_20220102_102852.jpg
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/11_card~PXL_20230623_213101121.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/19_card~IMG_20220102_102852.jpg'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/20_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\20_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 21_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\21_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/6_card~heli.png', 'text': 'heli', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\heli.png
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\6_card~heli.png
+    new_filename: 7_card~heli.png
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\7_card~heli.png
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/21_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/7_card~heli.png'}
 
 
 edit_card())
 Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/21_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'no', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\21_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 22_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\22_card~PXL_20230623_213057967.MP.jpg
+{'img_url': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/7_card~heli.png', 'text': 'heli', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
+    user_folder_path: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18
+    oriPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\heli.png
+    cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\7_card~heli.png
+    new_filename: 8_card~heli.png
+    new_cardPath: files\b3d1187f-8474-4bc1-bd56-3c37ecaa1f18\8_card~heli.png
 Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/22_card~PXL_20230623_213057967.MP.jpg'}
-
-
-edit_card())
-Edits:
-{'img_url': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/22_card~PXL_20230623_213057967.MP.jpg', 'text': 'Fun at Lowes!', 'background_color': '#FFFFFF', 'font': '', 'font_color': '#000000', 'crop': 'auto', 'rotate_clockwise': False, 'rotate_counterclockwise': False}
-    user_folder_path: files\f6127312-ad5f-4438-bab6-baccb764df1b
-    oriPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\PXL_20230623_213057967.MP.jpg
-    cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\22_card~PXL_20230623_213057967.MP.jpg
-    new_filename: 23_card~PXL_20230623_213057967.MP.jpg
-    new_cardPath: files\f6127312-ad5f-4438-bab6-baccb764df1b\23_card~PXL_20230623_213057967.MP.jpg
-Done - returning:
-    {'success': True, 'new_filename': '/get_img/f6127312-ad5f-4438-bab6-baccb764df1b/23_card~PXL_20230623_213057967.MP.jpg'}
+    {'success': True, 'new_filename': '/get_img/b3d1187f-8474-4bc1-bd56-3c37ecaa1f18/8_card~heli.png'}
 
 
